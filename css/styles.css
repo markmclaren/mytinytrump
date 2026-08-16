@@ -1,0 +1,153 @@
+/* My Tiny Trump character-preview composition: white field, black reflective floor, restrained asset-first presentation. */
+
+:root {
+  color-scheme: light;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+}
+
+* { box-sizing: border-box; }
+
+body { margin: 0; }
+
+.character-stage {
+  --horizon: 62%;
+  --figure-right: clamp(14px, 3vw, 42px);
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+.bright-field {
+  position: absolute;
+  inset: 0 0 auto;
+  height: var(--horizon);
+  background: #fdfdfc;
+}
+
+.reflective-floor {
+  position: absolute;
+  inset: var(--horizon) 0 0;
+  background: #020202;
+  transform: translateY(-12vw);
+  will-change: transform;
+}
+
+.character,
+.character-reflection {
+  position: absolute;
+  right: var(--figure-right);
+  width: clamp(108px, 12vw, 160px);
+  margin: 0;
+  pointer-events: none;
+}
+
+.character {
+  top: calc(var(--horizon) - clamp(172px, 19vw, 240px));
+  z-index: 2;
+  filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.16));
+  transform: translateX(130px);
+  will-change: transform;
+}
+
+.character-reflection {
+  top: var(--horizon);
+  z-index: 1;
+  transform: translateX(130px) scaleY(-1);
+  transform-origin: top center;
+  opacity: 0.2;
+  filter: grayscale(1) contrast(0.75) brightness(1.25);
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.34) 44%, transparent 90%);
+}
+
+.character img,
+.character-reflection img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.quote-bubble {
+  position: absolute;
+  z-index: 4;
+  top: clamp(70px, calc(var(--horizon) - 310px), 145px);
+  right: clamp(18px, 3vw, 46px);
+  width: min(390px, calc(100vw - 36px));
+  padding: 15px 17px 14px;
+  border: 1px solid #bfc3c8;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  color: #202124;
+  font: 15px/1.45 Arial, Helvetica, sans-serif;
+}
+
+.quote-bubble__text {
+  display: block;
+  width: 100%;
+  margin: 0 0 10px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+}
+
+.quote-bubble__text:focus-visible,
+.quote-bubble__source:focus-visible {
+  outline: 2px solid #0b63ce;
+  outline-offset: 3px;
+}
+
+.quote-bubble__source {
+  color: #0b63ce;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.quote-bubble__source:hover { text-decoration: underline; }
+
+.quote-bubble__tail {
+  position: absolute;
+  right: clamp(45px, 5vw, 68px);
+  bottom: -8px;
+  width: 14px;
+  height: 14px;
+  transform: translateX(50%) rotate(45deg);
+  border-right: 1px solid #bfc3c8;
+  border-bottom: 1px solid #bfc3c8;
+  background: #fff;
+}
+
+/* Vanilla JS adds .is-ready after two frames so both entrance states paint first. */
+.character-stage.is-ready .reflective-floor {
+  animation: ground-settle 1300ms cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+
+.character-stage.is-ready .character {
+  animation: character-arrive 1150ms cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+
+.character-stage.is-ready .character-reflection {
+  animation: reflection-arrive 1150ms cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+
+@keyframes ground-settle { to { transform: translateY(0); } }
+@keyframes character-arrive { to { transform: translateX(0); } }
+@keyframes reflection-arrive { to { transform: translateX(0) scaleY(-1); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .character-stage.is-ready .reflective-floor { animation-duration: 650ms; }
+  .character-stage.is-ready .character,
+  .character-stage.is-ready .character-reflection { animation-duration: 600ms; }
+}
+
+@media (max-width: 520px) {
+  .quote-bubble {
+    top: 48px;
+    font-size: 14px;
+  }
+}

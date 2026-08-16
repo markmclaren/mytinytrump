@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A small, non-affiliated Donald Trump character sprite study." />
+    <title>My Tiny Trump</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main class="character-stage" aria-label="Donald Trump character sprite preview">
+      <div class="bright-field" aria-hidden="true"></div>
+      <div class="reflective-floor" aria-hidden="true"></div>
+      <article class="quote-bubble" aria-live="polite">
+        <button class="quote-bubble__text" type="button" aria-label="Show the next quotation"></button>
+        <a class="quote-bubble__source" target="_blank" rel="noreferrer">Source</a>
+        <span class="quote-bubble__tail" aria-hidden="true"></span>
+      </article>
+      <figure class="character">
+        <img src="./images/trump.png" alt="Donald Trump in a blue suit and red tie with arms held outward" />
+      </figure>
+      <figure class="character-reflection" aria-hidden="true">
+        <img src="./images/trump.png" alt="" />
+      </figure>
+    </main>
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>
