@@ -1,3 +1,5 @@
 - [x] Add the requested Donald Trump character sprite and a small static preview; clean the generated background into a usable transparent cutout.
 - [x] Replace the generated sprite with the user-supplied clean image and finish the framework-free static implementation.
 - [x] Add a sourced, attributed rotation of notable documented Donald Trump quotations in vanilla JavaScript.
+- [x] Add at least 14 more verified and source-linked public quotations to the rotation.
+- [x] Ground the figure precisely at the black horizon and make the lower image read as a clear vertical reflection.

@@ -13,6 +13,7 @@ body { margin: 0; }
 .character-stage {
   --horizon: 62%;
   --figure-right: clamp(14px, 3vw, 42px);
+  --figure-height: clamp(172px, 19vw, 240px);
   position: fixed;
   inset: 0;
   overflow: hidden;
@@ -38,13 +39,14 @@ body { margin: 0; }
 .character-reflection {
   position: absolute;
   right: var(--figure-right);
-  width: clamp(108px, 12vw, 160px);
+  width: auto;
+  height: var(--figure-height);
   margin: 0;
   pointer-events: none;
 }
 
 .character {
-  top: calc(var(--horizon) - clamp(172px, 19vw, 240px));
+  top: calc(var(--horizon) - var(--figure-height));
   z-index: 2;
   filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.16));
   transform: translateX(130px);
@@ -52,20 +54,20 @@ body { margin: 0; }
 }
 
 .character-reflection {
-  top: var(--horizon);
+  top: calc(var(--horizon) + var(--figure-height));
   z-index: 1;
   transform: translateX(130px) scaleY(-1);
   transform-origin: top center;
-  opacity: 0.2;
-  filter: grayscale(1) contrast(0.75) brightness(1.25);
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.34) 44%, transparent 90%);
+  opacity: 0.34;
+  filter: saturate(0.78) contrast(0.88) brightness(1.12) blur(0.35px);
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,0.92), rgba(0,0,0,0.47) 46%, transparent 94%);
 }
 
 .character img,
 .character-reflection img {
   display: block;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .quote-bubble {
