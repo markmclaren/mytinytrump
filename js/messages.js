@@ -101,4 +101,154 @@ export const QUOTES = [
     source: "April 2019 NRCC speech — FactCheck.org",
     url: "https://www.factcheck.org/2019/04/trumps-faulty-wind-power-claims/",
   },
+  {
+    text: "I know more about people who get ratings than anyone.",
+    source: "October 2012 tweet — Axios source collection",
+    url: "https://www.axios.com/2019/01/05/everything-trump-says-he-knows-more-about-than-anybody",
+  },
+  {
+    text: "I understand social media. I understand the power of Twitter. I understand the power of Facebook maybe better than almost anybody, based on my results, right?",
+    source: "November 2015 remarks — Axios source collection",
+    url: "https://www.axios.com/2019/01/05/everything-trump-says-he-knows-more-about-than-anybody",
+  },
+  {
+    text: "Who knows more about lawsuits than I do? I'm the king.",
+    source: "January 2016 remarks — Axios source collection",
+    url: "https://www.axios.com/2019/01/05/everything-trump-says-he-knows-more-about-than-anybody",
+  },
+  {
+    text: "I understand politicians better than anybody.",
+    source: "2016 statement — Axios source collection",
+    url: "https://www.axios.com/2019/01/05/everything-trump-says-he-knows-more-about-than-anybody",
+  },
+  {
+    text: "Nobody knows the system better than me. I know the H1B. I know the H2B. Nobody else on this dais knows how to change it like I do, believe me.",
+    source: "March 2016 debate remarks — Axios source collection",
+    url: "https://www.axios.com/2019/01/05/everything-trump-says-he-knows-more-about-than-anybody",
+  },
+  {
+    text: "Nobody knows more about trade than me.",
+    source: "March 2016 statement — Axios source collection",
+    url: "https://www.axios.com/2019/01/05/everything-trump-says-he-knows-more-about-than-anybody",
+  },
+  {
+    text: "I know more about Cory than he knows about himself.",
+    source: "July 2016 tweet — Axios source collection",
+    url: "https://www.axios.com/2019/01/05/everything-trump-says-he-knows-more-about-than-anybody",
+  },
+  {
+    text: "I think I know more about the other side than almost anybody.",
+    source: "November 2016 statement — Axios source collection",
+    url: "https://www.axios.com/2019/01/05/everything-trump-says-he-knows-more-about-than-anybody",
+  },
+  {
+    text: "Nobody knows more about construction than I do.",
+    source: "May 2018 remarks — Axios source collection",
+    url: "https://www.axios.com/2019/01/05/everything-trump-says-he-knows-more-about-than-anybody",
+  },
+  {
+    text: "I think I know about it better than the Federal Reserve.",
+    source: "October 2018 statement — Axios source collection",
+    url: "https://www.axios.com/2019/01/05/everything-trump-says-he-knows-more-about-than-anybody",
+  },
+  {
+    text: "Having a drone fly overhead — and I think nobody knows much more about technology, this type of technology certainly, than I do.",
+    source: "January 2019 remarks — Axios source collection",
+    url: "https://www.axios.com/2019/01/05/everything-trump-says-he-knows-more-about-than-anybody",
+  },
+  {
+    text: "My father gave me a very small loan in 1975, and I built it into a company that's worth many, many billions of dollars.",
+    source: "First 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/september-26-2016-debate-transcript/",
+  },
+  {
+    text: "They're using our country as a piggy bank to rebuild China.",
+    source: "First 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/september-26-2016-debate-transcript/",
+  },
+  {
+    text: "It's going to be a beautiful thing to watch.",
+    source: "First 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/september-26-2016-debate-transcript/",
+  },
+  {
+    text: "I agree with everything she said.",
+    source: "Second 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/",
+  },
+  {
+    text: "It's hard to believe. Inconceivable.",
+    source: "Second 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/",
+  },
+  {
+    text: "It's just words, folks. It's just words.",
+    source: "Second 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/",
+  },
+  {
+    text: "Sounds fair.",
+    source: "Second 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/",
+  },
+  {
+    text: "Because you'd be in jail.",
+    source: "Second 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/",
+  },
+  {
+    text: "We have some bad hombres here, and we're going to get them out.",
+    source: "Third 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-19-2016-debate-transcript/",
+  },
+  {
+    text: "Nobody has more respect for women than I do.",
+    source: "Second 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/",
+  },
+  {
+    text: "Such a nasty woman.",
+    source: "Third 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-19-2016-debate-transcript/",
+  },
+  {
+    text: "No puppet. No puppet. You're the puppet.",
+    source: "Third 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-19-2016-debate-transcript/",
+  },
+  {
+    text: "I will tell you at the time. I'll keep you in suspense, OK?",
+    source: "Third 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-19-2016-debate-transcript/",
+  },
+  {
+    text: "I am not quoting myself.",
+    source: "Third 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-19-2016-debate-transcript/",
+  },
+  {
+    text: "I cannot believe I'm saying that about myself, but I guess I have been a politician.",
+    source: "Second 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/",
+  },
+  {
+    text: "We're going to make America wealthy again.",
+    source: "Second 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/",
+  },
+  {
+    text: "We're going to make America safe again.",
+    source: "Second 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/",
+  },
+  {
+    text: "We either have a country or we don't.",
+    source: "Second 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/",
+  },
+  {
+    text: "We have to have strong borders.",
+    source: "Second 2016 presidential debate — CPD transcript",
+    url: "https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/",
+  },
 ];

@@ -12,3 +12,8 @@ The MyTinyTrump quotation rotation contains documented public statements, not in
 | [C-SPAN: Hilton Head rally clip](https://www.c-span.org/clip/campaign-2016/user-clip-trump-i-know-words/4659877) | “I know words. I have the best words.” |
 | [POLITICO: 2016 RNC transcript](https://www.politico.com/story/2016/07/full-transcript-donald-trump-nomination-acceptance-speech-at-rnc-225974) | “I AM YOUR VOICE” and “I alone can fix it.” |
 | [TIME: covfefe article](https://time.com/4815850/donald-trump-covfefe-tweet-mike-quigley/) | The 2017 “covfefe” tweet. |
+| [CPD: first 2016 presidential debate transcript](https://www.debates.org/voter-education/debate-transcripts/september-26-2016-debate-transcript/) | Statements including the “very small loan,” “piggy bank,” “beautiful thing,” and NAFTA remarks. |
+| [CPD: second 2016 presidential debate transcript](https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/) | Statements including “I agree with everything she said,” “It’s just words, folks,” “Sounds fair,” and “Because you’d be in jail.” |
+| [CPD: third 2016 presidential debate transcript](https://www.debates.org/voter-education/debate-transcripts/october-19-2016-debate-transcript/) | “Such a nasty woman,” “No puppet. You’re the puppet,” and “I’ll keep you in suspense.” |
+
+The third-debate transcript was browser-checked for the exact “Such a nasty woman” wording. The second-debate transcript contains “It’s just words, folks,” “Sounds fair,” “Because you’d be in jail,” and “bad hombres.” The Axios source collection records exact quotations about ratings, social media, lawsuits, visas, trade, government systems, Cory Booker, Democrats, construction, the economy, and drone technology.

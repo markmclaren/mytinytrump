@@ -3,3 +3,5 @@
 - [x] Add a sourced, attributed rotation of notable documented Donald Trump quotations in vanilla JavaScript.
 - [x] Add at least 14 more verified and source-linked public quotations to the rotation.
 - [x] Ground the figure precisely at the black horizon and make the lower image read as a clear vertical reflection.
+- [x] Research and add 30 more verified, source-linked public quotations to the rotation.
+- [x] Add accessible left and right arrow navigation to the vanilla quote rotation.

@@ -22,8 +22,28 @@ function showNextQuote() {
   renderQuote();
 }
 
+function showPreviousQuote() {
+  quoteIndex = (quoteIndex - 1 + orderedQuotes.length) % orderedQuotes.length;
+  renderQuote();
+}
+
+function handleQuoteNavigation(event) {
+  if (event.altKey || event.ctrlKey || event.metaKey) return;
+
+  if (event.key === 'ArrowRight') {
+    event.preventDefault();
+    showNextQuote();
+  }
+
+  if (event.key === 'ArrowLeft') {
+    event.preventDefault();
+    showPreviousQuote();
+  }
+}
+
 renderQuote();
 quoteButton?.addEventListener('click', showNextQuote);
+window.addEventListener('keydown', handleQuoteNavigation);
 window.setInterval(showNextQuote, 9000);
 
 if (stage) {
